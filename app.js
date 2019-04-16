@@ -1,11 +1,7 @@
-// Program to find factorial of a Number
+let theNumber = Number(prompt("Pick a Number"));
 
-function factorial(n) {
-  if (n === 0) {
-    return 1;
-  } else {
-    return factorial(n - 1) * n;
-  }
+if (!Number.isNaN(theNumber)) {
+  console.log(`Your number is the square root of ${theNumber * theNumber}`);
+} else {
+  console.log(`Please Enter a Number`);
 }
-
-console.log(factorial(5));
