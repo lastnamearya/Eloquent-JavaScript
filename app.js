@@ -1,10 +1,25 @@
-switch (prompt("Do you want to Sleep?")) {
-  case "Yes":
-    console.log("Okay");
-    break;
-  case "No":
-    console.log("Okay, No probs");
-  default:
-    console.log("Complete Chapter 2: Exercises First");
-    break;
+/*
+Looping a triangle
+Write a loop that makes seven calls to console.log to output the following triangle:
+
+#
+##
+###
+####
+#####
+######
+#######
+
+*/
+
+let triangle = "#";
+
+for (let i = 0; i < 7; i++) {
+  if (triangle.length === 1) {
+    console.log(triangle);
+    triangle = triangle + "#";
+  } else {
+    console.log(triangle);
+    triangle = triangle + "#";
+  }
 }
