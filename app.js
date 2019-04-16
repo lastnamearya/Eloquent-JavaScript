@@ -1,12 +1,11 @@
-// Write a Program to console.log all Even Number from 0 to 12
+// Find the output of 2 the power of 10.
 
-'use strict';
+let number = 1;
+let count = 0;
 
-let a = 0;
-
-while (a <= 12) {
-  if (a % 2 === 0) {
-    console.log(a);
-  }
-  a++;
+while (count < 10) {
+  number = number * 2;
+  count = count + 1;
 }
+
+console.log(number);
