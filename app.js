@@ -1,7 +1,12 @@
-let theNumber = Number(prompt("Pick a Number"));
+// Write a Program to console.log all Even Number from 0 to 12
 
-if (!Number.isNaN(theNumber)) {
-  console.log(`Your number is the square root of ${theNumber * theNumber}`);
-} else {
-  console.log(`Please Enter a Number`);
+'use strict';
+
+let a = 0;
+
+while (a <= 12) {
+  if (a % 2 === 0) {
+    console.log(a);
+  }
+  a++;
 }
