@@ -1,11 +1,10 @@
-// Find the output of 2 the power of 10.
-
-let number = 1;
-let count = 0;
-
-while (count < 10) {
-  number = number * 2;
-  count = count + 1;
+switch (prompt("Do you want to Sleep?")) {
+  case "Yes":
+    console.log("Okay");
+    break;
+  case "No":
+    console.log("Okay, No probs");
+  default:
+    console.log("Complete Chapter 2: Exercises First");
+    break;
 }
-
-console.log(number);
